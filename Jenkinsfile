@@ -41,7 +41,7 @@ pipeline{
         failure{
             script{
                 emailext from: 'mentor@trainwithshubham.com',
-                to: 'mentor@trainwithshubham.com',
+                to: 'moreakshay7056@gmail.com',
                 body: 'Build Failed for Demo CICD App',
                 subject: 'Build Failed for Demo CICD App'
             }
